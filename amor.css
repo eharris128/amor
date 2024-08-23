@@ -1,7 +1,9 @@
-td {
-  background: red;
-}
-
-#amount {
-  color: blue;
+input[type="SUBMIT"] {
+  background: #111111;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 1em 2.5em;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
 }
