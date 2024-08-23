@@ -11,3 +11,7 @@ input[type="SUBMIT"] {
 img {
   max-height: 60px;
 }
+
+#secure-transaction-anchor, img[src="images/lock.gif"] {
+  display: none;
+}
