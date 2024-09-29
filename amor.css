@@ -24,6 +24,7 @@ form[name="customer_information"] input:not([type="submit"]), select {
   width: 80%;
 }
 
+/* Do not extend beyond the width of the form */
 form[name="customer_information"] > table:nth-of-type(4) {
   max-width: 320px;
 }
@@ -39,7 +40,7 @@ form[name="customer_information"] > table:nth-of-type(3) > tbody > tr:first-chil
 }
 
 /* Hide fields that are confusing to the user */
-form[name="complete_order_form"] > table:first-child > tbody > td:nth-of-type(2),
-form[name="complete_order_form"] > table:first-child > tbody > first-child {
+form[name="complete_order_form"] > table:first-child > tbody > tr:nth-of-type(2),
+form[name="complete_order_form"] > table:first-child > tbody > tr:first-child {
   display: none;
 }
