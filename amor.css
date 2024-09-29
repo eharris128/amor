@@ -33,3 +33,9 @@ form *:not(input[type="submit"]), table * {
 form[name="customer_information"] > table:nth-of-type(3) > tbody > tr:first-child > td:nth-of-type(2) {
   display: none;
 }
+
+/* Hide fields that are confusing to the user */
+form[name="complete_order_form"] > table:first-child > tbody > td:nth-of-type(2),
+form[name="complete_order_form"] > table:first-child > tbody > first-child {
+  display: none;
+}
