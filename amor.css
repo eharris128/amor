@@ -9,6 +9,7 @@ input[type="SUBMIT"] {
   outline: none;
 }
 
+/* Restrict size of header image */
 img {
   max-height: 60px;
 }
@@ -19,15 +20,12 @@ img {
 }
 
 /* Standardize the size of inputs */
-form[name="customer_information"] input:not([type="submit"]) {
+form[name="customer_information"] input:not([type="submit"]), select {
   width: 80%;
 }
 
-form b {
-  font-size: 12px;
-}
-
-table {
+/* Bump up font size for legibility */
+form *:not(input[type="submit"]), table * {
   font-size: 12px;
 }
 
