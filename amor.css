@@ -20,7 +20,7 @@ img {
 }
 
 /* Standardize the size of inputs */
-form[name="customer_information"] input:not([type="submit"]), select {
+form[name="customer_information"] input:not([type="submit"]), select, form[name="customer_information"] > table:nth-of-type(4) {
   width: 80%;
 }
 
