@@ -1,3 +1,4 @@
+/* Match the styling of the core website */
 input[type="SUBMIT"] {
   background: #111111;
   color: #ffffff;
@@ -12,6 +13,25 @@ img {
   max-height: 60px;
 }
 
+/* Hide the retro lock image */
 #secure-transaction-anchor, img[src="images/lock.gif"] {
+  display: none;
+}
+
+/* Standardize the size of inputs */
+form[name="customer_information"] input:not([type="submit"]) {
+  width: 80%;
+}
+
+form b {
+  font-size: 12px;
+}
+
+table {
+  font-size: 12px;
+}
+
+/* Use the full width for `Additional Information*/
+form[name="customer_information"] > table:nth-of-type(3) > tbody > tr:first-child > td:nth-of-type(2) {
   display: none;
 }
